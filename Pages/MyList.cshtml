@@ -1,0 +1,41 @@
+﻿@page
+@model MusicLibrary.Pages.MyListModel
+@{
+	ViewData["Title"] = "My List";
+	int counter = 1;
+}
+
+<div class="mylist-header-container">
+	<h2>My Library</h2>
+	<a asp-page="/songs/create" class="btn btn-add-song">
+		Add song
+	</a>
+</div>
+<div class="mylist-body-container">
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th></th>
+				<th>Title</th>
+				<th>Author</th>
+				<th>Genre</th>
+				<th>Added On</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var obj in Model.SongList.OrderByDescending(item => item.AddedOn))
+			{
+				<tr>
+					<td class="mylist-id-center">@counter</td>
+					<td>@obj.Title</td>
+					<td>@obj.Author</td>
+					<td>@obj.Genre</td>
+					<td>@obj.AddedOn.ToString("HH:mm, dd.MM.yyyy")</td>
+					<td>Actions</td>
+				</tr>
+				counter++;
+			}
+		</tbody>
+	</table>
+</div>
