@@ -13,7 +13,7 @@ namespace MusicLibrary.Models
 		public string Title { get; set; }
 		[Required]
 		public string Author { get; set; }
-
+		[Required]
 		public string Genre { get; set; }
 		public DateTime AddedOn { get; set; }
 	}
