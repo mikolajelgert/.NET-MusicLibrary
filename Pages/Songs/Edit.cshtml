@@ -1,18 +1,20 @@
 ﻿@page
-@model MusicLibrary.Pages.Songs.CreateModel
+@model MusicLibrary.Pages.Songs.EditModel
 @{
-	ViewData["Title"] = "Add Song";
+	ViewData["Title"] = "Edit Song";
 }
 
 <div class="mylist-header-container">
-	<h2>Add new song</h2>
+	<h2>Edit song</h2>
 	<form method="post">
+		<input asp-for="Song.Id" hidden/>
+		<input asp-for="Song.AddedOn" hidden/>
 		<div class="create-inputs-container">
 			<h5>Song Details</h5>
 			<div asp-validation-summary="All"></div>
 			<div class="create-input-title">
 				<label asp-for="Song.Title">Title</label>
-				<input asp-for="Song.Title" type="text" class="form-control"/>
+				<input asp-for="Song.Title" type="text" class="form-control" />
 				<span asp-validation-for="Song.Title" class="text-danger"></span>
 			</div>
 			<div class="create-input-second-row">
@@ -28,7 +30,7 @@
 				</div>
 			</div>
 			<div class="create-input-buttons">
-				<button type="submit" class="btn btn-add-song">Add</button>
+				<button type="submit" class="btn btn-add-song">Edit</button>
 				<a asp-page="/mylist" class="btn btn-back-to-list">Back to list</a>
 			</div>
 		</div>

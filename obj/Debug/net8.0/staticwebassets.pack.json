@@ -197,8 +197,16 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "C:\\Users\\maikPC\\source\\repos\\lab1Poprawka.net\\MusicLibrary\\wwwroot\\lib\\images\\cross-delete.svg",
+      "PackagePath": "staticwebassets\\lib\\images\\cross-delete.svg"
+    },
+    {
       "Id": "C:\\Users\\maikPC\\source\\repos\\lab1Poprawka.net\\MusicLibrary\\wwwroot\\lib\\images\\music-library.svg",
       "PackagePath": "staticwebassets\\lib\\images\\music-library.svg"
+    },
+    {
+      "Id": "C:\\Users\\maikPC\\source\\repos\\lab1Poprawka.net\\MusicLibrary\\wwwroot\\lib\\images\\pencil-edit.svg",
+      "PackagePath": "staticwebassets\\lib\\images\\pencil-edit.svg"
     },
     {
       "Id": "C:\\Users\\maikPC\\source\\repos\\lab1Poprawka.net\\MusicLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",

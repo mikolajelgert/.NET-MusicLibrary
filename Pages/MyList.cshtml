@@ -32,7 +32,16 @@
 					<td>@obj.Author</td>
 					<td>@obj.Genre</td>
 					<td>@obj.AddedOn.ToString("HH:mm, dd.MM.yyyy")</td>
-					<td>Actions</td>
+					<td class="mylist-actions-cell">
+						<div class="mylist-row-actions">
+							<a asp-page="/songs/edit" asp-route-id="@obj.Id">
+								<img class="action pencil-edit-icon" src="/lib/images/pencil-edit.svg" alt="pencil-edit.svg" />
+							</a>
+							<a asp-page="/songs/delete" asp-route-id="@obj.Id">
+								<img class="action cross-delete-icon" src="/lib/images/cross-delete.svg" alt="cross-delete.svg" />
+							</a>
+						</div>
+					</td>
 				</tr>
 				counter++;
 			}

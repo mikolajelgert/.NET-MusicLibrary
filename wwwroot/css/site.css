@@ -9,8 +9,8 @@ html {
 }
 
 .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem black;
-  border-color: black;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem black;
+    border-color: black;
 }
 
 html {
@@ -35,6 +35,16 @@ footer {
 .music-library-icon {
     height: 200px;
     filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.4));
+}
+
+.cross-delete-icon {
+    height: 15px;
+    filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.2));
+}
+
+.pencil-edit-icon {
+    height: 17px;
+    filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.2));
 }
 
 .mylist-header-container {
@@ -92,4 +102,31 @@ footer {
 
 .btn-back-to-list {
     border: solid 1px black;
+}
+
+.mylist-actions-cell {
+    display: table-cell;
+    align-content: center;
+    width: 80px;
+}
+
+.mylist-row-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-delete-song {
+    color: white;
+    background-color: darkred;
+    border: 1px solid black;
+}
+
+.action:hover {
+    filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.6));
+}
+
+.btn:hover {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
 }

@@ -166,3 +166,4 @@ C:\Users\maikPC\source\repos\lab1Poprawka.net\MusicLibrary\obj\Debug\net8.0\refi
 C:\Users\maikPC\source\repos\lab1Poprawka.net\MusicLibrary\obj\Debug\net8.0\MusicLibrary.pdb
 C:\Users\maikPC\source\repos\lab1Poprawka.net\MusicLibrary\obj\Debug\net8.0\MusicLibrary.genruntimeconfig.cache
 C:\Users\maikPC\source\repos\lab1Poprawka.net\MusicLibrary\obj\Debug\net8.0\ref\MusicLibrary.dll
+C:\Users\maikPC\source\repos\lab1Poprawka.net\MusicLibrary\obj\Debug\net8.0\MusicLibrary.sourcelink.json

@@ -1,0 +1,34 @@
+﻿@page
+@model MusicLibrary.Pages.Songs.DeleteModel
+@{
+	ViewData["Title"] = "Delete Song";
+}
+
+<div class="mylist-header-container">
+	<h2>Delete song</h2>
+	<form method="post">
+		<input asp-for="Song.Id" hidden />
+		<input asp-for="Song.AddedOn" hidden />
+		<div class="create-inputs-container">
+			<h5>Song Details</h5>
+			<div class="create-input-title">
+				<label asp-for="Song.Title">Title</label>
+				<input asp-for="Song.Title" type="text" class="form-control" readonly/>
+			</div>
+			<div class="create-input-second-row">
+				<div>
+					<label asp-for="Song.Author">Author</label>
+					<input asp-for="Song.Author" type="text" class="form-control" readonly/>
+				</div>
+				<div>
+					<label asp-for="Song.Genre">Genre</label>
+					<input asp-for="Song.Genre" type="text" class="form-control" readonly/>
+				</div>
+			</div>
+			<div class="create-input-buttons">
+				<button type="submit" class="btn btn-delete-song">Delete</button>
+				<a asp-page="/mylist" class="btn btn-back-to-list">Back to list</a>
+			</div>
+		</div>
+	</form>
+</div>

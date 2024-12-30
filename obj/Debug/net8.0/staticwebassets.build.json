@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ivwi2lFsoCiEmbNvM8FujfRxTR4j4Vk/IbKS0L7S4xw=",
+  "Hash": "qEu2kPLEPLWHj93AUH74/hSmMJn8aAcO+jsPS4Ued8w=",
   "Source": "MusicLibrary",
   "BasePath": "_content/MusicLibrary",
   "Mode": "Default",
@@ -967,6 +967,25 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+      "Identity": "C:\\Users\\maikPC\\source\\repos\\lab1Poprawka.net\\MusicLibrary\\wwwroot\\lib\\images\\cross-delete.svg",
+      "SourceId": "MusicLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maikPC\\source\\repos\\lab1Poprawka.net\\MusicLibrary\\wwwroot\\",
+      "BasePath": "_content/MusicLibrary",
+      "RelativePath": "lib/images/cross-delete.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\images\\cross-delete.svg"
+    },
+    {
       "Identity": "C:\\Users\\maikPC\\source\\repos\\lab1Poprawka.net\\MusicLibrary\\wwwroot\\lib\\images\\music-library.svg",
       "SourceId": "MusicLibrary",
       "SourceType": "Discovered",
@@ -984,6 +1003,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\images\\music-library.svg"
+    },
+    {
+      "Identity": "C:\\Users\\maikPC\\source\\repos\\lab1Poprawka.net\\MusicLibrary\\wwwroot\\lib\\images\\pencil-edit.svg",
+      "SourceId": "MusicLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maikPC\\source\\repos\\lab1Poprawka.net\\MusicLibrary\\wwwroot\\",
+      "BasePath": "_content/MusicLibrary",
+      "RelativePath": "lib/images/pencil-edit.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\images\\pencil-edit.svg"
     },
     {
       "Identity": "C:\\Users\\maikPC\\source\\repos\\lab1Poprawka.net\\MusicLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.js",
